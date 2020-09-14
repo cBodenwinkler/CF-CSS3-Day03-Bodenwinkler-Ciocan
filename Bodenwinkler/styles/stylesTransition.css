@@ -1,0 +1,90 @@
+p {
+	margin: 4%;
+}
+
+/* First Link */
+#firstTransition {
+	font-size: 2em;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: lightblue;
+	padding: 1%;
+	transition: background-color 3s;
+}
+
+#firstTransition:hover {
+	font-size: 3em;
+	background-color: lightgreen;
+}
+
+#firstTransition {
+	transition-timing-function: ease-out;
+}
+
+
+
+
+/* Second, Third and Fourth Link */
+.secondTransition {
+	font-size: 2em;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+	transition: ease-out;
+}
+
+.secondTransition:hover {
+	transform: rotate(180deg);
+	background: lightblue;
+	transition-duration: 3s;
+}
+
+
+/* Third Transition */
+.thirdTransition {
+	border: solid 1px blue;
+	width: 150px;
+	height: 150px;
+	padding: 150px 0px 0px 50px;
+	background-color: lightyellow;
+
+	transition: width 1s, height 4s;
+	transition-timing-function: ease-in-out;
+	transition-property: height;
+}
+
+.thirdTransition:hover {
+	transform: scale(1.5);
+	width: 300px;
+	height: 200px;
+	margin-left: 10%;
+}
+
+
+/* Fourth Transition */
+.fourthTransition {
+	border: solid 5px black;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	padding-top: 50px;
+
+
+	background-color: lightgreen;
+	transition: width 2s;
+
+}
+
+.fourthTransition:hover {
+	background-color: red;
+	width: 300px;
+	transform: skewX(35deg);
+	transform: skewY(10deg);
+	/* transform: rotateZ(5deg); */
+
+
+}
+
