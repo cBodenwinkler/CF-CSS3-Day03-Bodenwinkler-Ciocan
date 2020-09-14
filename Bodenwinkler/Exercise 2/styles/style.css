@@ -1,0 +1,79 @@
+html {
+	box-sizing: border-box;
+	font-family: Arial,Helvetica, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 500px;
+	border: 1px solid black;
+	margin: 1%;
+	padding: 1%;
+}
+
+h2, h3 {
+	display: inline;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+h2 {
+	font-size: 1.1em;
+}
+
+/* Heading and Serving Size */
+#heading {
+	/* border: solid 1px black; */
+	display: flex;
+
+	flex-flow: column wrap;
+	align-content: flex-start;
+	border-bottom: 10px solid black;
+}
+
+
+
+.rightSide {
+	display: flex;
+	justify-content: flex-end;
+
+
+}
+
+.rowClass {
+	border: solid 1px black;
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+
+#spanIdMilk {
+	text-align: right;
+	width: 15%;
+}
+
+.small {
+	text-align: right;
+	width: 15%;
+}
+
+.leftSide {
+	border: 1px solid black;
+	/* margin-left: 0; */
+}
+
+
+
+
+
